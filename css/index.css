@@ -1,0 +1,127 @@
+/* Section styles */
+
+.header-section {
+    border: 2px solid #7a7a7a; 
+    padding:30px;
+}
+
+.location-section {
+    padding:30px;
+    overflow: auto;
+}
+
+.left, .right {
+    float: left;
+    width: 50%; 
+}
+
+.centre-align {
+    margin: auto;
+    width: 45%;
+}
+
+.centre-text {
+    text-align: center;
+}
+
+.vertical-centre {
+    vertical-align: middle;
+}
+
+/* Fonts styles */
+
+.larger-header-text{
+    font-size:7vw;
+}
+
+.small-header-text{
+    font-size:3vw;
+}
+
+.wedding-font {
+    font-family:'Times new roman';
+    font-weight: 500;
+}
+
+.save-the-date-font {
+    font-family:'Times new roman';
+    font-weight: 300;
+    font-size:3vw;
+    color: #7a7a7a;
+}
+
+.names-font{
+    color: #cd7f32;
+    font-family:'Times new roman';
+    font-weight: 500;
+}
+
+/* Separater line styles */
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.separator::before {
+    margin-right: .25em;
+}
+
+.separator::after {
+    margin-left: .25em;
+}
+
+/* Map styles */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/* experimental */
+
+.address {
+    float:left;
+    width:20%;
+    text-align:center;
+}
+
+.menu a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:100%;
+    color:black;
+}
+
+.main {
+    float:left;
+    width:60%;
+    padding:0 20px;
+}
+
+.map {
+    background-color:#e5e5e5;
+    float:left;
+    width:20%;
+    padding:15px;
+    margin-top:7px;
+    text-align:center;
+}
