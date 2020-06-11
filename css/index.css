@@ -7,7 +7,7 @@
 
 .location-section {
     padding:30px;
-    overflow: auto;
+    /*overflow: auto;*/
 }
 
 .left, .right {
@@ -91,37 +91,4 @@
     height:100%;
     width:100%;
     position:absolute;
-}
-
-
-/* experimental */
-
-.address {
-    float:left;
-    width:20%;
-    text-align:center;
-}
-
-.menu a {
-    background-color:#e5e5e5;
-    padding:8px;
-    margin-top:7px;
-    display:block;
-    width:100%;
-    color:black;
-}
-
-.main {
-    float:left;
-    width:60%;
-    padding:0 20px;
-}
-
-.map {
-    background-color:#e5e5e5;
-    float:left;
-    width:20%;
-    padding:15px;
-    margin-top:7px;
-    text-align:center;
 }
