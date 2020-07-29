@@ -1,6 +1,5 @@
 /* #region Master Structure */
 
-
 body{
 
     background-color: #efefef;
@@ -12,18 +11,13 @@ body{
     box-shadow: 0px 1px 15px rgba(0,0,0,0.2);
 }
 
-
-
 @media only screen and (min-width: 500px) {
   
     .main-content{
-        width: 70%;
+        width: 80%;
         max-width: 900px;
-
     }
 }
-
-
 
 /* #endregion Master Structure*/
 
@@ -35,50 +29,110 @@ body{
 }
 
 .location-section {
-    /* padding:30px; */
-    padding-top: 30px;
-    padding-bottom: 30px;
-    /*overflow: auto;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
     display:flex;
     flex-direction: row;
     justify-content: stretch;
-    /* width: 100%; */
+    margin-right: 5%;
 }
-
 
 .location-section > *
 {
-
     flex-grow: 1;
 }
 
-
-.address-section
-{
+.address-section {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
+    max-width: 50%;
 }
 
+.address-section > * {
+    justify-content:center;
+    align-items: center;
+    max-width: 90%;
+}
+
+.map-responsive {
+    position: relative;
+    overflow:hidden;
+}
 
 .map-responsive > iframe{
-        width: 100%!important;
+    width: 100%!important;
 }
 
+.confetti-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.confetti-section > * {
+    justify-content:center;
+    align-items: center;
+    max-width: 90%;
+}
+
+.accomodation-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.accomodation-section > * {
+    justify-content:center;
+    align-items: center;
+    max-width: 90%;
+}
+
+.order-of-the-day-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.order-of-the-day-section > * {
+    justify-content:center;
+    align-items: center;
+    max-width: 90%;
+}
 
 @media only screen and (max-width: 500px) {
-  
     .location-section {
-        
         flex-direction: column;
+        min-height: none;
+        margin-right: auto;
+    }
+    
+    .address-section {
+        max-width: 100%;
+    }
 
-         min-height: none;
+    .confetti-section {
+        max-width: 100%;
+        padding-left: 0%;
+    }
+
+    .accomodation-section {
+        max-width: 100%;
+        padding-left: 0%;
+    }
+
+    .order-of-the-day-section {
+        max-width: 100%;
+        padding-left: 0%;
     }
 }
-
-
-
 
 /* #endregion main Structure*/
 
@@ -150,19 +204,3 @@ body{
     margin-left: .25em;
 }
 
-/* Map styles */
-
-.map-responsive {
-    position: relative;
-    overflow:hidden;
-
-    height: 480px;
-}
-.map-responsive iframe {
-    left:0;
-    top:0;
-     width:100%; 
-    position:absolute;
-    top: 0px;
-    bottom: 0px;
-}
