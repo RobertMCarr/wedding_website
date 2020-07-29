@@ -42,7 +42,7 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: stretch;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .location-section > *
@@ -80,7 +80,7 @@ body{
 }
 
 .confetti-section > * {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 .accomodation-section {
@@ -92,7 +92,7 @@ body{
 }
 
 .accomodation-section > * {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 .order-of-the-day-section {
@@ -104,7 +104,7 @@ body{
 }
 
 .order-of-the-day-section > * {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 @media only screen and (max-width: 500px) {
