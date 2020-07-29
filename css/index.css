@@ -134,6 +134,19 @@ body{
     max-width: 95%;
 }
 
+.centred-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.centred-section > * {
+    max-width: 95%;
+}
+
+
 @media only screen and (max-width: 500px) {
     .location-section {
         flex-direction: column;
