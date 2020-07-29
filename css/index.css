@@ -74,7 +74,7 @@ body{
     width: 100%!important;
 }
 
-.confetti-section {
+/*.confetti-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,7 +132,7 @@ body{
 
 .children-section > * {
     max-width: 95%;
-}
+}*/
 
 .centred-section {
     display: flex;
