@@ -19,6 +19,10 @@ body{
     }
 }
 
+.footer {
+    padding-bottom: 20px;
+}
+
 /* #endregion Master Structure*/
 
 /* #region Section styles */
@@ -38,7 +42,6 @@ body{
 
 .location-section {
     padding-top: 20px;
-    padding-bottom: 20px;
     display:flex;
     flex-direction: row;
     justify-content: stretch;
@@ -104,6 +107,30 @@ body{
 }
 
 .order-of-the-day-section > * {
+    max-width: 95%;
+}
+
+.gift-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.gift-section > * {
+    max-width: 95%;
+}
+
+.children-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.children-section > * {
     max-width: 95%;
 }
 
